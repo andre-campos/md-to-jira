@@ -1,19 +1,21 @@
 ---
 issuetype: Epic
+project: VTC
 key: epic
-epicLinkField: field_id
-epicLabelField: field_id
+epicLabelField: customfield_10103
+epicLabel: Test
 summary: Summary
-timetracking:
+timeTracking:
     originalEstimate: 10d
     remainingEstimate: 10d
 labels:
     - test
+    - label2
 attachments:
-    - images/test.png
+    - profile.jpeg
 ---
 # Markdown
 Hello world with a [link](www.google.com)!
 
 ## Here's a test image
-!test.png!
+!profile.jpeg!
